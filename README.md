@@ -21,7 +21,7 @@ Build nas versões neste caso rodar no servidor, e corrigir dependências e conf
   
 Diretório   
 #
-💬Aqui estão as os arquivos contidos neste repositório:  
+💬Breve Layout dos arquivos contidos neste repositório:  
 #
 📁 \Login_v8  
 #
