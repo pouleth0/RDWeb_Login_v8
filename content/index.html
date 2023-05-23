@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes" />
+    <meta name="description" content="RDWeb acess StudProject" />
+    <meta name="msapplication-TileColor" content="#d14827" />
+    <meta name="msapplication-square70x70logo" content="assets/images/smalltile_70x70.d011aca3.png" />
+    <meta name="msapplication-square150x150logo" content="assets/images/mediumtile_150x150.d2b9db25.png" />
+    <meta name="msapplication-wide310x150logo" content="assets/images/widetile_310x150.3f699eb9.png" />
+    <meta name="msapplication-square310x310logo" content="assets/images/largetile_310x310.959eec87.png" />
+
+    <title id="rdAppTitle"></title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <style type="text/css" media="print">
+      * { display: none; }
+    </style>
+
+    <script type="text/javascript" src="assets/js/ms.jsll-3.min.js"></script>
+
+    <script src="Config/deploymentsettings.js"></script>
+
+    <script type="text/javascript">
+      var browserLang = navigator.language || navigator.userLanguage; 
+      if(!browserLang) { browserLang = "pt-BR"; }
+      document.documentElement.lang = browserLang;
+    </script>
+
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+
+    <div id="rdp-page-loading">
+        <div>
+            <div class="loading-animation">
+                <div></div><div></div><div></div><div></div><div></div>
+            </div>
+        </div>
+    </div>
+
+    <!--[if lt IE 10]>
+      <p class="unsupported-browser">You are using an <strong>outdated</strong> browser. Please
+        upgrade your browser to improve your experience.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="client_components/es5-shim/es5-shim.js"></script>
+    <script src="client_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+    <script src="js/components.js"></script>
+
+    <rdp-client-top-view></rdp-client-top-view>
+
+    <script src="js/client.js"></script>
+
+    <script src="js/rdTelemetry.js"></script>
+
+</body>
+</html>

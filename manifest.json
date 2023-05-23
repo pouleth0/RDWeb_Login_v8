@@ -1,0 +1,7 @@
+{
+    "packageId": "rd-html5",
+    "version": "2.0.0.0",
+    "author": "StudProject",
+    "summary": "The Remote Desktop Web Client",
+    "minRDWebClientManagementVersion": "1.0.2"
+}
